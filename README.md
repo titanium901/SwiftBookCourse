@@ -16,3 +16,6 @@ Random persons list
 
 ![personslist](https://user-images.githubusercontent.com/30910230/55730388-bb56ec00-5a20-11e9-859a-6fd90237acfa.gif)
 # Lesson 4
+Spring Animation 
+
+![springGif](https://user-images.githubusercontent.com/30910230/55803241-a478ce00-5ae2-11e9-9c7c-580f44f394d8.gif)
