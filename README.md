@@ -18,4 +18,4 @@ Random persons list
 # Lesson 4
 Spring Animation 
 
-![springGif](https://user-images.githubusercontent.com/30910230/55803241-a478ce00-5ae2-11e9-9c7c-580f44f394d8.gif)
+
