@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="lesson5" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Снимок экрана 2019-04-12 в 10.08.46" translatesAutoresizingMaskIntoConstraints="NO" id="bZE-V5-o4y">
+                                <rect key="frame" x="20" y="44" width="374" height="197"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="197" id="iTh-Xe-WDU"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4a-q5-VQs">
+                                <rect key="frame" x="119" y="699" width="176" height="45"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <state key="normal" title="Refreshe Joke">
+                                    <color key="titleColor" red="0.94687384366989136" green="0.35416123270988464" blue="0.14060947299003601" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="refresheJoke:" destination="BYZ-38-t0r" eventType="touchUpInside" id="862-8E-neI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joke" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="ZNW-C4-7Ok">
+                                <rect key="frame" x="20" y="268" width="374" height="18.5"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="aJg-6y-fOQ">
+                                <rect key="frame" x="20" y="449" width="374" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="QOq-ce-Cba"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Url:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="CSv-s4-EaD">
+                                <rect key="frame" x="20" y="478" width="374" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="cKd-8e-w7d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4eR-uI-B58">
+                                <rect key="frame" x="156" y="518" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="neh-et-BdP"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CSv-s4-EaD" firstAttribute="top" secondItem="aJg-6y-fOQ" secondAttribute="bottom" constant="8" id="2WC-MW-aAR"/>
+                            <constraint firstItem="CSv-s4-EaD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4T3-fs-4GO"/>
+                            <constraint firstItem="4eR-uI-B58" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="156" id="6p3-A7-5fW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="l4a-q5-VQs" secondAttribute="trailing" constant="119" id="9JW-cV-sKa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CSv-s4-EaD" secondAttribute="trailing" constant="20" id="Bdt-lQ-4lH"/>
+                            <constraint firstItem="l4a-q5-VQs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="119" id="C2o-Y1-9QO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZNW-C4-7Ok" secondAttribute="trailing" constant="20" id="C4W-lj-Pol"/>
+                            <constraint firstItem="ZNW-C4-7Ok" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="H2V-iX-BOk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bZE-V5-o4y" secondAttribute="trailing" constant="20" id="HX1-pg-5y0"/>
+                            <constraint firstItem="aJg-6y-fOQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="SeI-in-f7x"/>
+                            <constraint firstItem="4eR-uI-B58" firstAttribute="top" secondItem="CSv-s4-EaD" secondAttribute="bottom" constant="19" id="Sjv-Oj-sfc"/>
+                            <constraint firstItem="CSv-s4-EaD" firstAttribute="top" secondItem="aJg-6y-fOQ" secondAttribute="bottom" constant="8" id="VP7-IJ-7fw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aJg-6y-fOQ" secondAttribute="trailing" constant="20" id="Z37-ij-f54"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="l4a-q5-VQs" secondAttribute="bottom" constant="118" id="dgR-v7-rjb"/>
+                            <constraint firstItem="l4a-q5-VQs" firstAttribute="top" secondItem="4eR-uI-B58" secondAttribute="bottom" constant="81" id="eP9-8b-yls"/>
+                            <constraint firstItem="bZE-V5-o4y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fy1-kx-KRr"/>
+                            <constraint firstItem="ZNW-C4-7Ok" firstAttribute="top" secondItem="bZE-V5-o4y" secondAttribute="bottom" constant="27" id="gAZ-TY-hEe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4eR-uI-B58" secondAttribute="trailing" constant="158" id="hbz-dD-ERd"/>
+                            <constraint firstItem="bZE-V5-o4y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zrf-Dj-b0O"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="animationLogo" destination="bZE-V5-o4y" id="zg6-Pd-SXn"/>
+                        <outlet property="iconImage" destination="4eR-uI-B58" id="RaI-4W-6Wl"/>
+                        <outlet property="idLabel" destination="aJg-6y-fOQ" id="zse-1d-1Ti"/>
+                        <outlet property="jokeLabel" destination="ZNW-C4-7Ok" id="sTI-WY-DnH"/>
+                        <outlet property="urlLabel" destination="CSv-s4-EaD" id="Gur-gj-MES"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="20.758928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Снимок экрана 2019-04-12 в 10.08.46" width="928" height="508"/>
+    </resources>
+</document>
