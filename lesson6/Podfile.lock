@@ -1,0 +1,29 @@
+PODS:
+  - Alamofire (4.7.3)
+  - CryptoSwift (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - CryptoSwift (from `https://github.com/krzyzanowskim/CryptoSwift`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  CryptoSwift:
+    :branch: master
+    :git: https://github.com/krzyzanowskim/CryptoSwift
+
+CHECKOUT OPTIONS:
+  CryptoSwift:
+    :commit: 05bee040ba17c7d3f619a38ef5046af002572c9a
+    :git: https://github.com/krzyzanowskim/CryptoSwift
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  CryptoSwift: d85fa09463f6ccbb7f658261944aed69cf019af8
+
+PODFILE CHECKSUM: a055d7ef40a197f9981ac8a9a272e8d8b7791993
+
+COCOAPODS: 1.5.3
