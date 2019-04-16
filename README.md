@@ -21,9 +21,15 @@ Spring Animation
 ![2019-04-09 16-20-15 2019-04-09 16_20_45](https://user-images.githubusercontent.com/30910230/55803681-7cd63580-5ae3-11e9-95f8-dc8a54cf1d34.gif)
 
 # Lesson 5
-Work with public api (https://api.chucknorris.io)
+Work with public api (https://api.chucknorris.io) with URLSession
 
 ![norisJoke](https://user-images.githubusercontent.com/30910230/56027624-12113e00-5d1f-11e9-934c-1885dedca548.gif)
+
+# Lesson 6
+Work with api (https://superheroapi.com/) and use Alamofire framework
+
+![superHero](https://user-images.githubusercontent.com/30910230/56190576-2ca32a00-6033-11e9-838f-5775b65a407a.gif)
+
 
 
 
