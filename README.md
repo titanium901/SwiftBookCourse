@@ -35,6 +35,12 @@ ToDo List with CoreData
 
 ![2019-04-17 16-43-34 2019-04-17 16_49_51](https://user-images.githubusercontent.com/30910230/56293057-0a8fd180-6131-11e9-9334-fb7b0ee6c462.gif)
 
+# Lesson 8 
+ToDo List with Realm framework
+
+![taskRealm](https://user-images.githubusercontent.com/30910230/56417908-0f25c880-629e-11e9-9c03-d0d199652ddc.gif)
+
+
 
 
 
